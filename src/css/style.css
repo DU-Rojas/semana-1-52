@@ -2,9 +2,15 @@
     background: #EDD59E;
 }
 .menu{
-    align-content: center;
-    background-color: #4DE051;
-    flex: auto;
+    top: 0;
+	left: 0;
+	width: 100%;
+	height: 15vh;
+	padding-left: 20vw;
+	padding-right: 10vw;
+	box-sizing: border-box;
+	transition: .3s;
+	background-color: #333;
 }
 .menu_item{
     list-style: none;
